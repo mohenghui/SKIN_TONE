@@ -102,7 +102,7 @@ def SkinWhiten2(img,mask,path,beta=2.0):
     img=(img*255.0).astype("uint8")
     makedirR(path)
     cv2.imwrite(path,img)
-def SkinWhiten3(img,mask,path,rate=0.0.7):
+def SkinWhiten3(img,mask,path,rate=0.07):
     Color_list = [
 	1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 31, 33, 35, 37, 39,
 	41, 43, 44, 46, 48, 50, 52, 53, 55, 57, 59, 60, 62, 64, 66, 67, 69, 71, 73, 74,
