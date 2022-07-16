@@ -5,7 +5,8 @@
 皮肤mask：
 随机森林提取皮肤mask算法   https://zhuanlan.zhihu.com/p/406627649   
 其他参考自己以往的项目 https://github.com/mohenghui/pose_controlled   
-运行方法 ：python demo.py mask1 基于遍历    
+运行方法 ：python demo.py   
+mask1 基于遍历     
 mask2基于YCrCb之Cr分量 + OTSU二值化  
 mask3 基于随机森林
 
